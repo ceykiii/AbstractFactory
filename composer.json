@@ -1,0 +1,15 @@
+{
+    "name": "emc/html",
+    "authors": [
+        {
+            "name": "Cem AÇAR",
+            "email": "myceykiii@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Acar\\Pattern\\": "src"
+        }
+    }
+}
