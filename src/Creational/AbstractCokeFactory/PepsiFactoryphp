@@ -1,0 +1,21 @@
+<?php
+namespace Acar\Pattern\Creational\AbstractCokeFactory;
+use Acar\Pattern\Creational\AbstractCokeFactory; 
+class PepsiFactory extends AbstractCokeFactory {
+    private $companyName = "Pepsi";
+    function createNormalCoke() {
+        return new Pepsi\PepsiNormalCoke;
+    }
+
+    function createFreeSugarCoke() {
+        return new Pepsi\PepsiFreeSugarCoke;
+    }
+
+    function createLightCoke() {
+        return new Pepsi\PepsiLightCoke;
+    }
+
+    function createLemeonCoke() {
+        return new Pepsi\PepsiLemeonCoke;
+    }
+}
